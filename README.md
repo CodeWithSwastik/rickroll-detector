@@ -2,7 +2,7 @@
 
 A simple rickroll detector
 # Installation 
-This isn't a python module on pypi as of now so you you'll need to download the rickroll_detector.py file and keep it in the same directory as your main file. <br> <br>
+This isn't a python module on pypi as of now so you'll need to download the rickroll_detector.py file and keep it in the same directory as your main file. <br> <br>
 You can also `git clone https://github.com/CodeWithSwastik/rickroll-detector`
 # Usage
 ```python
