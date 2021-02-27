@@ -13,7 +13,7 @@ result = find_rickroll("https://youtu.be/oHg5SJYRHA0")
 print(result) #returns True
 ```
 
-# Async Usage | Is not functional as of now
+# Async Usage 
 ```python
 from async_rickroll_detector import RickRollDetector
 
