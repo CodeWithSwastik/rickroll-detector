@@ -3,4 +3,5 @@ import re
 
 def find_rickroll(url):
     source = str(requests.get(url).content).lower()
-    return re.findall('rickroll|rick roll|rick astley', source, re.MULTILINE)
+    phrases = ["rickroll","rick roll","rick astley","never gonna give you up"]
+    return bool(re.findall("|".join(phrases), source, re.MULTILINE))
